@@ -31,11 +31,13 @@ Periksa instalasi Java dan PostgreSQL sebelum menjalankan project.
 
 jika versi java berbeda ubah di build.gradle.kts bagian
 
-````java {
+````
+java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(21)
 	}
-}```
+}
+```
 
 ### Dependencies
 
